@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.game-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+.game {
+    background-color: white;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    width: 200px;
+}
+
+.game h2 {
+    color: #333;
+}
+
+.game a {
+    text-decoration: none;
+    color: #0066ff;
+}
+
+.game a:hover {
+    text-decoration: underline;
+}
+
+.introduction {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 20px; /* Add padding inside the box */
+    background-color: #fff; /* A light background for the text box */
+    border: 1px solid #ccc; /* A subtle border */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px; 
+}
+
+body {
+    background-color: #f5f5dc;
+    background-repeat: no-repeat;
+    background-size: cover; /* This will ensure that the background covers the entire area */
+}
