@@ -1,4 +1,4 @@
-﻿# Games I coded in Pythonnnnn
+﻿# Games I coded in Pythonnnnn 🔥
 
 Hiii these are mini games that we all have played before, I coded these games to learn the language python better!!
 
