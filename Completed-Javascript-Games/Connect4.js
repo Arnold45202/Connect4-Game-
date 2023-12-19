@@ -22,9 +22,11 @@ function placeChip() {
         if (gameBoard[i][col] === '') {
             gameBoard[i][col] = currentPlayer;
             updateBoard();
+            waitpid()
             if (checkWinner(currentPlayer)) {
-                alert(`GG EZ ${currentPlayer} won ezzy dubs. Ty for playing, Click Restart game to play again <33`);
-                return;
+                setTimeout(function() {
+                    alert(`Congratulations! ${currentPlayer} wins. Click Restart game to play again.`);
+                }, 100); 
             }
             currentPlayer = currentPlayer === 'red' ? 'yellow' : 'red';
             break;
@@ -48,6 +50,7 @@ function updateBoard() {
 }
 
 function checkWinner(chip) {
+    updateBoard();
     for (let r = 0; r < rows; r++) {
         for (let c = 0; c < columns - 3; c++) {
             if (gameBoard[r][c] === chip && gameBoard[r][c + 1] === chip && 
