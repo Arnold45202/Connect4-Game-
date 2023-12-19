@@ -22,7 +22,6 @@ function placeChip() {
         if (gameBoard[i][col] === '') {
             gameBoard[i][col] = currentPlayer;
             updateBoard();
-            waitpid()
             if (checkWinner(currentPlayer)) {
                 setTimeout(function() {
                     alert(`Congratulations! ${currentPlayer} wins. Click Restart game to play again.`);
