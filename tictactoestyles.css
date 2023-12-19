@@ -8,7 +8,7 @@
 body {
     background-color: #f5f5dc;
     background-repeat: no-repeat;
-    background-size: cover; /* This will ensure that the background covers the entire area */
+    background-size: cover; 
 }
 
 .cell {
