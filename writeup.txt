@@ -1,0 +1,18 @@
+Hey This is write up which would documents the thought process and the coding error I get when i'm making this website
+
+21/12/2023 
+
+this is the first day of my docummenting my code for my website aka first project
+
+so i uploaded on this 000webhost where i have two games which are tic tac toe and connect4,also i have a game review page which allows
+random people that plays the game to review about it, but i need to make a backend for it which would store the files for it 
+
+i'm trying to keep the colour and the css consistent between all my games and my whole website
+
+ERRORS TO BE FIXED:
+connect4 right now for connect 4 it requires to have a number to be inputed but i think it should be buttons on the bottom like 7 buttons at the bottom,
+which would allow it to be better for the user, 
+
+for connect4 and tictactoe i think i should have a text at the top which would show who's turn it is because right now its just red start first for connect4
+and for tic tac toe X starts first
+
